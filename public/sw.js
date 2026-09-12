@@ -1,11 +1,11 @@
-const CACHE_NAME = 'frugalito-v1';
+const CACHE_NAME = 'frugalito-v2';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/favicon.svg'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
+  './favicon.svg'
 ];
 
 self.addEventListener('install', (event) => {
